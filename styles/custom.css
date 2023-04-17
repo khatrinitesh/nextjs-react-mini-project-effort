@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.navbar {
+    background-color: #000 !important;
+}
+.navbar  ul{
+    display: flex;
+}
+.navbar  ul li a{
+    color:#fff !important;
+    display: block;
+    padding: 5px 10px;
+}
+
+.navbar  ul li.active a{
+    background-color: red;
+}
+
+
+.main_content{
+    min-height: calc(100vh - 112px);
+}
+
+.footer{
+    background-color: #333 !important;
+    color:#fff !important;
+}
+
+.btn-scrollTop{
+    position: fixed;
+    right:20px;
+    bottom:100px;
+    background-color: red;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+    padding:10px;
+}
